@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+.DS_Store
+.ipynb_checkpoints/
+
+# Downloaded source data are not redistributed. See data/README.md.
+data/raw/
+
+# Local caches
+.cache/
