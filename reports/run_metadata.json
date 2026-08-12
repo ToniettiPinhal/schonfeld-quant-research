@@ -1,0 +1,70 @@
+{
+  "data_manifest": {
+    "downloaded_at_utc": "2026-08-12T21:01:47.285589+00:00",
+    "sources": {
+      "ff3_factors": {
+        "file": "F-F_Research_Data_Factors_CSV.zip",
+        "last_modified": "Mon, 03 Aug 2026 19:17:07 GMT",
+        "sha256": "cd6d8e0d175b6f423862a6ad15a3073a6e4264b52b2ac9262396c79f707c6bcb",
+        "size_bytes": 13052,
+        "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_Factors_CSV.zip"
+      },
+      "industry_49": {
+        "file": "49_Industry_Portfolios_CSV.zip",
+        "last_modified": "Mon, 03 Aug 2026 19:17:25 GMT",
+        "sha256": "a0b23457eac619c8a3cce362de563b6f57acc3514779ceccdb99886edfa0a804",
+        "size_bytes": 488664,
+        "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/49_Industry_Portfolios_CSV.zip"
+      },
+      "momentum_factor": {
+        "file": "F-F_Momentum_Factor_CSV.zip",
+        "last_modified": "Mon, 03 Aug 2026 19:17:08 GMT",
+        "sha256": "f405ee2d47a5c75ce05025f789733d0599879361e9836a553504240b89159871",
+        "size_bytes": 5610,
+        "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Momentum_Factor_CSV.zip"
+      }
+    }
+  },
+  "factor_regression": {
+    "n_observations": 318,
+    "r_squared": 0.7202964785296327,
+    "strategy_mom_correlation": 0.8424494697665942
+  },
+  "first_strategy_month": "1970-07",
+  "industry_count": 49,
+  "inference": {
+    "bootstrap_block_months": 12,
+    "bootstrap_samples": 5000,
+    "hac_lags": 6,
+    "random_seed": 20260812
+  },
+  "last_strategy_month": "2026-06",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "python": "3.12.13",
+  "stable_start": "1969-07",
+  "strategy_config": {
+    "cost_bps": 10.0,
+    "lookback_months": 12,
+    "selection_fraction": 0.2,
+    "skip_months": 1
+  },
+  "temporal_splits": {
+    "development": [
+      "1970-07",
+      "1984-12"
+    ],
+    "full": [
+      "1970-07",
+      "2026-06"
+    ],
+    "test": [
+      "2000-01",
+      "2026-06"
+    ],
+    "validation": [
+      "1985-01",
+      "1999-12"
+    ]
+  }
+}

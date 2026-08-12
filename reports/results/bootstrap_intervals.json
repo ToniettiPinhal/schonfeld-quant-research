@@ -1,0 +1,18 @@
+{
+  "sharpe_difference_vs_mom": {
+    "block_length_months": 12,
+    "bootstrap_median": 0.003971207130989082,
+    "bootstrap_samples": 5000,
+    "ci_2_5": -0.22558346089396017,
+    "ci_97_5": 0.2118820063156091,
+    "estimate": 0.003983670631473368
+  },
+  "strategy_sharpe": {
+    "block_length_months": 12,
+    "bootstrap_median": 0.18077448004033986,
+    "bootstrap_samples": 5000,
+    "ci_2_5": -0.18902519827865064,
+    "ci_97_5": 0.5684194793169984,
+    "estimate": 0.17182887119118034
+  }
+}
